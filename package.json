@@ -1,0 +1,26 @@
+{
+  "name": "mini-bundler",
+  "version": "1.0.0",
+  "description": "make a mini JavaScript code bundler",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangkaiwd/mini-bundler.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangkaiwd/mini-bundler/issues"
+  },
+  "homepage": "https://github.com/wangkaiwd/mini-bundler#readme",
+  "dependencies": {
+    "@babel/generator": "^7.12.11",
+    "@babel/parser": "^7.12.11",
+    "@babel/traverse": "^7.12.12",
+    "@babel/types": "^7.12.12"
+  }
+}
