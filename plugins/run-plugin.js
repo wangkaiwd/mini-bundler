@@ -1,8 +1,8 @@
 class RunPlugin {
   apply (compiler) {
-    compiler.hooks.done.tap('RunPlugin',() => {
+    compiler.hooks.done.tap('RunPlugin', () => {
       console.log('Run~~~~~~');
-    })
+    });
   }
 }
 
