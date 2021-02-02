@@ -39,6 +39,12 @@ compiler.run()
 6. 将`require`中的所有路径都替换为相对于项目根目录的相对路径(`path.relative`)
 7. 继续处理该模块的依赖模块
 
+### 未完成
+
+* extensions
+* recursive require
+
 ### 问题
 
 * 如何在相对路径之前加`./`? 例：`src/title.js` -> `./src/title.js`
+* 如何处理递归引用的问题？ `Map`,`Array`
