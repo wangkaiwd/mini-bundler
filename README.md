@@ -38,3 +38,7 @@ compiler.run()
 5. 通过`@babel/traverse`遍历`ast`，找到模块中的`require`语句，`require`语句引入的内容就是该模块的依赖
 6. 将`require`中的所有路径都替换为相对于项目根目录的相对路径(`path.relative`)
 7. 继续处理该模块的依赖模块
+
+### 问题
+
+* 如何在相对路径之前加`./`? 例：`src/title.js` -> `./src/title.js`
