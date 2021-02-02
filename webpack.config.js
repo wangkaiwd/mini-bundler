@@ -12,7 +12,10 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        use: []
+        use: [
+          path.resolve(__dirname, 'loaders', 'logger1-loader'),
+          path.resolve(__dirname, 'loaders', 'logger2-loader')
+        ]
       }
     ]
   },
